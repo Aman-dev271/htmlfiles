@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid system</title>
+    <style>
+        .aman{
+            display: grid;
+           grid-template-columns: repeat(5 , auto);
+    /* grid-template-rows: repeat(10 , 500px); */
+    /* grid-gap: 30px; */
+    /* margin:30px; */
+
+
+
+            
+        
+        }
+       .grid:first-child{
+           grid-column: 1 /span 2;
+       }
+      
+        .grid{ border: 2px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <div class="aman">
+        <div class="grid" id="item1">this is a grid items</div>
+        <div class="grid" id="item2">this is a grid items</div>
+        <div class="grid" id="item3">this is a grid items</div>
+        <div class="grid" id="item4">this is a grid items</div>
+        <div class="grid" id="item5">this is a grid items</div>
+        <div class="grid" id="item6">this is a grid items</div>
+        <div class="grid" id="item7">this is a grid items</div>
+        <div class="grid" id="item8">this is a grid items</div>
+        <div class="grid" id="item9">this is a grid items</div>
+        <div class="grid" id="item10">this is a grid items</div>
+    </div>
+    
+</body>
+</html>

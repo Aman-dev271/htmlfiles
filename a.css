@@ -1,0 +1,16 @@
+
+		table,th,td,tr{
+			border:3px solid yellow;
+			border-collapse: collapse;
+			text-align: center;
+
+		}
+		img{
+			border-radius: 50%;
+			width:100px;
+			border:1px solid black;
+		}
+
+	.aman{
+		color:red;
+	}

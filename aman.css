@@ -1,0 +1,15 @@
+table,th,td,tr{
+	border:1px solid pink;
+	border-collapse:collapse;
+	
+	text-align:center;
+	width: 405
+	
+	height:100px;
+}
+
+img{
+	border-radius: 50px;
+	border:1px solid black;
+	width:100px;
+}

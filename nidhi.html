@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cccc</title>
+    <style>
+        *{
+            left:0px;
+            top:0px;
+        }
+        .sl {
+            position: relative;
+            animation: aman;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+            height: 150px;
+
+
+        }
+
+        @keyframes aman {
+            0% {
+                background-image: url('BIHAR.jpg');
+            }
+
+            25% {
+                background-image: url('bts.jpg');
+            }
+
+            50% {
+                background-image: url('btsw.jpg');
+            }
+
+            75% {
+                background-image: url('aman.jpg');
+
+            }
+
+            100% {
+                background-image: url('css.png');
+            }
+        }
+
+      
+        .container {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .dibba {
+            width: 807px;
+            border: 2px solid green;
+          
+            margin-left: 60px;
+            margin-right: 60px;
+            height: 500px;
+
+        }
+
+
+        #box2 {
+
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            width: 250px;
+            border: 3px solid green;
+
+        }
+
+        #box1 {
+            border: 2px solid green;
+            justify-content: center;
+            align-items: center;
+          
+        }
+
+
+        .d {
+            height: 150px;
+            width: 250px;
+            background-color: red;
+            margin-top: 4px;
+        }
+
+        .d {
+            position: relative;
+            transition-property: all;
+            transition-duration: 3s;
+        }
+
+        .d:hover {
+            width: 250px;
+            height: 300px;
+        }
+
+        .box1 {
+
+
+            border: 2px solid green;
+            width: 250px;
+            justify-content: center;
+            align-items: center;
+
+
+
+        }
+
+        .d1 {
+            height: 150px;
+            width: 250px;
+            background-color: blueviolet;
+            margin-top: 4px;
+        }
+
+
+        .d1 {
+            position: relative;
+            transition-property: all;
+            transition-duration: 3s;
+        }
+
+        .d1:hover {
+            width: 250px;
+            height: 300px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="sl" id="sli">
+        this is item
+    </div>
+    <div class="container">
+        <div class="box" id="box2">
+
+            <div class="d" id="bx1">i am box</div>
+            <div class="d" id="bx2">i am box</div>
+            <div class="d" id="bx3">i am box</div>
+
+        </div>
+        <div class="box" id="box3">
+            <div class="dibba">
+                <form>
+                <input type="text" placeholder="name" required="true">
+                <a href="grid.html" target="_blank">
+                <input type="submit"></a>
+            </form>
+            </div>
+        </div>
+        <div class="box1" id="box4">
+
+
+            <div class="d1" id="bx1">i am box</div>
+            <div class="d1" id="bx2">i am box</div>
+            <div class="d1" id="bx3">i am box</div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

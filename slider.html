@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>slider</title>
+	<style type="text/css">
+		body{
+			background-color: black;
+		}
+		.a{
+			
+		height: 600px;
+		width:90%;
+		position: absolute;
+		left:50%;
+		top:50%;
+		transform: translate(-50%,-50%);
+			
+			background-image: url('aman.jpg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			animation: slider 12s infinite linear;
+			box-shadow: 1px 3px 10px 5px white
+
+		}
+		@keyframes slider{
+			0%{background-image: url('kalpana.jpg');
+
+				}35%{background-image: url('nav12.png');  }
+				75%{ background-image: url('css.png'); }
+
+		}
+
+	</style>
+</head>
+<body>
+<div class="a">
+	hii this is aman
+</div>
+</body>
+</html>
